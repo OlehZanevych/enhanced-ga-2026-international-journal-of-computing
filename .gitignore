@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.ninja*
+
+# Compiled binaries
+generate
+schedule
+
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store

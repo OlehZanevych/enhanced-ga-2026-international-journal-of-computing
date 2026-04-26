@@ -1,0 +1,1047 @@
+[2026-04-19 11:02:23] ==========================================
+[2026-04-19 11:02:23] Enhanced GA Experiments — START
+[2026-04-19 11:02:23] ==========================================
+[2026-04-19 11:02:23] Working directory: /Users/ozanevych/Education/Articles/genetic-algorithm/enhanced-ga
+[2026-04-19 11:02:23] Seeds per config: 50
+[2026-04-19 11:02:23] Total runs: 500
+[2026-04-19 11:02:23] Date: 2026-04-19 11:02:23 EEST
+[2026-04-19 11:02:23] Host: OZANEVYCH.local
+[2026-04-19 11:02:23] OS: Darwin 25.2.0 arm64
+[2026-04-19 11:02:23] CPU: Apple M1 Pro
+[2026-04-19 11:02:23] Compiler: Apple clang version 15.0.0 (clang-1500.3.9.4)
+[2026-04-19 11:02:23] ==========================================
+[2026-04-19 11:02:23] Building executables...
+[2026-04-19 11:02:25] Build complete.
+[2026-04-19 11:02:25] Generating input data (5 variants)...
+Variant 0: V=30   L=8   G=6   A=5    room_util=20%  max_lec=4/30(13%)  max_grp=8/30(27%)
+Variant 1: V=60   L=12  G=10  A=8    room_util=25%  max_lec=6/30(20%)  max_grp=13/30(43%)
+Variant 2: V=120  L=20  G=15  A=10   room_util=40%  max_lec=7/30(23%)  max_grp=13/30(43%)
+Variant 3: V=250  L=35  G=25  A=15   room_util=56%  max_lec=8/30(27%)  max_grp=17/30(57%)
+Variant 4: V=500  L=60  G=40  A=20   room_util=83%  max_lec=9/30(30%)  max_grp=21/30(70%)
+Done. Generated 5 variants in data/
+[2026-04-19 11:02:26] Input data generation complete.
+[2026-04-19 11:02:26] --- variant=0 mode=no_ls (50 seeds) ---
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1000 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1000 best=0.0000 iters=18 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1001 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1001 best=0.0000 iters=26 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1002 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1002 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1003 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1003 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1004 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1004 best=0.0000 iters=20 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1005 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1005 best=0.0000 iters=65 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1006 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1006 best=0.0000 iters=15 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1007 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1007 best=0.0000 iters=21 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1008 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1008 best=0.0000 iters=22 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1009 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1009 best=0.0000 iters=21 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1010 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1010 best=0.0000 iters=22 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1011 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1011 best=0.0000 iters=26 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1012 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1012 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1013 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1013 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1014 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1014 best=0.0000 iters=28 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1015 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1015 best=0.0000 iters=28 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1016 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1016 best=0.0000 iters=24 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1017 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1017 best=0.0000 iters=24 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1018 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1018 best=0.0000 iters=34 time=0.01s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1019 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1019 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1020 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1020 best=0.0000 iters=16 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1021 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1021 best=0.0000 iters=20 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1022 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1022 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1023 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1023 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1024 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1024 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:26] START variant=0 mode=no_ls seed=1025 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:26] DONE  variant=0 mode=no_ls seed=1025 best=0.0000 iters=45 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1026 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1026 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1027 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1027 best=0.0000 iters=15 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1028 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1028 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1029 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1029 best=0.0000 iters=16 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1030 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1030 best=0.0000 iters=22 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1031 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1031 best=0.0000 iters=23 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1032 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1032 best=0.0000 iters=39 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1033 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1033 best=0.0000 iters=36 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1034 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1034 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1035 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1035 best=0.0000 iters=21 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1036 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1036 best=0.0000 iters=20 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1037 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1037 best=0.0000 iters=33 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1038 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1038 best=0.0000 iters=36 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1039 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1039 best=0.0000 iters=44 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1040 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1040 best=0.0000 iters=27 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1041 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1041 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1042 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1042 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1043 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1043 best=0.0000 iters=45 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1044 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1044 best=0.0000 iters=221 time=0.04s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1045 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1045 best=0.0000 iters=16 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1046 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1046 best=0.0000 iters=27 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1047 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1047 best=0.0000 iters=51 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1048 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1048 best=0.0000 iters=26 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=no_ls seed=1049 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=no_ls seed=1049 best=0.0000 iters=243 time=0.04s
+[2026-04-19 11:02:27] variant=0 mode=no_ls: 50 seeds done in 0h 0m 1s  [50/500 total, elapsed 0h 0m 4s]
+[2026-04-19 11:02:27] --- variant=0 mode=ls (50 seeds) ---
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1000 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1000 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1001 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1001 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1002 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1002 best=0.0000 iters=10 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1003 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1003 best=0.0000 iters=7 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1004 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1004 best=0.0000 iters=17 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1005 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1005 best=0.0000 iters=10 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1006 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1006 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1007 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1007 best=0.0000 iters=15 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1008 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1008 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1009 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1009 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1010 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1010 best=0.0000 iters=36 time=0.01s
+[2026-04-19 11:02:27] START variant=0 mode=ls seed=1011 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:27] DONE  variant=0 mode=ls seed=1011 best=0.0000 iters=10 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1012 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1012 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1013 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1013 best=0.0000 iters=23 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1014 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1014 best=0.0000 iters=23 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1015 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1015 best=0.0000 iters=16 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1016 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1016 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1017 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1017 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1018 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1018 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1019 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1019 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1020 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1020 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1021 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1021 best=0.0000 iters=13 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1022 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1022 best=0.0000 iters=17 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1023 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1023 best=0.0000 iters=71 time=0.02s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1024 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1024 best=0.0000 iters=16 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1025 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1025 best=0.0000 iters=20 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1026 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1026 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1027 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1027 best=0.0000 iters=9 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1028 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1028 best=0.0000 iters=38 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1029 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1029 best=0.0000 iters=44 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1030 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1030 best=0.0000 iters=13 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1031 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1031 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1032 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1032 best=0.0000 iters=18 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1033 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1033 best=0.0000 iters=13 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1034 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1034 best=0.0000 iters=24 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1035 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1035 best=0.0000 iters=25 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1036 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1036 best=0.0000 iters=19 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1037 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1037 best=0.0000 iters=11 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1038 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1038 best=0.0000 iters=17 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1039 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1039 best=0.0000 iters=15 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1040 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1040 best=0.0000 iters=9 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1041 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1041 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1042 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1042 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1043 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1043 best=0.0000 iters=14 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1044 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1044 best=0.0000 iters=13 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1045 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1045 best=0.0000 iters=12 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1046 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1046 best=0.0000 iters=10 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1047 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1047 best=0.0000 iters=31 time=0.01s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1048 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1048 best=0.0000 iters=10 time=0.00s
+[2026-04-19 11:02:28] START variant=0 mode=ls seed=1049 V=30 L=8 G=6 A=5 max_iter=5000
+[2026-04-19 11:02:28] DONE  variant=0 mode=ls seed=1049 best=0.0000 iters=13 time=0.00s
+[2026-04-19 11:02:28] variant=0 mode=ls: 50 seeds done in 0h 0m 1s  [100/500 total, elapsed 0h 0m 5s]
+[2026-04-19 11:02:28] --- variant=1 mode=no_ls (50 seeds) ---
+[2026-04-19 11:02:28] START variant=1 mode=no_ls seed=1000 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:29] DONE  variant=1 mode=no_ls seed=1000 best=0.0000 iters=1105 time=0.39s
+[2026-04-19 11:02:29] START variant=1 mode=no_ls seed=1001 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:30] DONE  variant=1 mode=no_ls seed=1001 best=0.0000 iters=3169 time=1.10s
+[2026-04-19 11:02:30] START variant=1 mode=no_ls seed=1002 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:32] DONE  variant=1 mode=no_ls seed=1002 best=5.0000 iters=5000 time=1.76s
+[2026-04-19 11:02:32] START variant=1 mode=no_ls seed=1003 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:32] DONE  variant=1 mode=no_ls seed=1003 best=0.0000 iters=380 time=0.13s
+[2026-04-19 11:02:32] START variant=1 mode=no_ls seed=1004 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:32] DONE  variant=1 mode=no_ls seed=1004 best=0.0000 iters=947 time=0.32s
+[2026-04-19 11:02:32] START variant=1 mode=no_ls seed=1005 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:34] DONE  variant=1 mode=no_ls seed=1005 best=10.0000 iters=5000 time=1.72s
+[2026-04-19 11:02:34] START variant=1 mode=no_ls seed=1006 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:36] DONE  variant=1 mode=no_ls seed=1006 best=5.0000 iters=5000 time=1.71s
+[2026-04-19 11:02:36] START variant=1 mode=no_ls seed=1007 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:38] DONE  variant=1 mode=no_ls seed=1007 best=5.0000 iters=5000 time=1.73s
+[2026-04-19 11:02:38] START variant=1 mode=no_ls seed=1008 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:39] DONE  variant=1 mode=no_ls seed=1008 best=5.0000 iters=5000 time=1.74s
+[2026-04-19 11:02:39] START variant=1 mode=no_ls seed=1009 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:41] DONE  variant=1 mode=no_ls seed=1009 best=5.0000 iters=5000 time=1.74s
+[2026-04-19 11:02:41] START variant=1 mode=no_ls seed=1010 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:41] DONE  variant=1 mode=no_ls seed=1010 best=0.0000 iters=519 time=0.19s
+[2026-04-19 11:02:41] START variant=1 mode=no_ls seed=1011 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:41] DONE  variant=1 mode=no_ls seed=1011 best=0.0000 iters=204 time=0.07s
+[2026-04-19 11:02:41] START variant=1 mode=no_ls seed=1012 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:43] DONE  variant=1 mode=no_ls seed=1012 best=45.0000 iters=5000 time=1.70s
+[2026-04-19 11:02:43] START variant=1 mode=no_ls seed=1013 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:44] DONE  variant=1 mode=no_ls seed=1013 best=0.0000 iters=1525 time=0.53s
+[2026-04-19 11:02:44] START variant=1 mode=no_ls seed=1014 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:44] DONE  variant=1 mode=no_ls seed=1014 best=0.0000 iters=751 time=0.26s
+[2026-04-19 11:02:44] START variant=1 mode=no_ls seed=1015 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:44] DONE  variant=1 mode=no_ls seed=1015 best=0.0000 iters=453 time=0.16s
+[2026-04-19 11:02:44] START variant=1 mode=no_ls seed=1016 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:44] DONE  variant=1 mode=no_ls seed=1016 best=0.0000 iters=476 time=0.16s
+[2026-04-19 11:02:44] START variant=1 mode=no_ls seed=1017 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:46] DONE  variant=1 mode=no_ls seed=1017 best=5.0000 iters=5000 time=1.70s
+[2026-04-19 11:02:46] START variant=1 mode=no_ls seed=1018 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:46] DONE  variant=1 mode=no_ls seed=1018 best=0.0000 iters=372 time=0.13s
+[2026-04-19 11:02:46] START variant=1 mode=no_ls seed=1019 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:47] DONE  variant=1 mode=no_ls seed=1019 best=0.0000 iters=638 time=0.22s
+[2026-04-19 11:02:47] START variant=1 mode=no_ls seed=1020 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:47] DONE  variant=1 mode=no_ls seed=1020 best=0.0000 iters=2133 time=0.74s
+[2026-04-19 11:02:47] START variant=1 mode=no_ls seed=1021 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:49] DONE  variant=1 mode=no_ls seed=1021 best=10.0000 iters=5000 time=1.71s
+[2026-04-19 11:02:49] START variant=1 mode=no_ls seed=1022 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:51] DONE  variant=1 mode=no_ls seed=1022 best=5.0000 iters=5000 time=1.73s
+[2026-04-19 11:02:51] START variant=1 mode=no_ls seed=1023 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:51] DONE  variant=1 mode=no_ls seed=1023 best=0.0000 iters=431 time=0.15s
+[2026-04-19 11:02:51] START variant=1 mode=no_ls seed=1024 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:51] DONE  variant=1 mode=no_ls seed=1024 best=0.0000 iters=142 time=0.05s
+[2026-04-19 11:02:51] START variant=1 mode=no_ls seed=1025 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:52] DONE  variant=1 mode=no_ls seed=1025 best=0.0000 iters=2990 time=1.04s
+[2026-04-19 11:02:52] START variant=1 mode=no_ls seed=1026 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:52] DONE  variant=1 mode=no_ls seed=1026 best=0.0000 iters=461 time=0.17s
+[2026-04-19 11:02:52] START variant=1 mode=no_ls seed=1027 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:53] DONE  variant=1 mode=no_ls seed=1027 best=0.0000 iters=329 time=0.12s
+[2026-04-19 11:02:53] START variant=1 mode=no_ls seed=1028 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:54] DONE  variant=1 mode=no_ls seed=1028 best=10.0000 iters=5000 time=1.74s
+[2026-04-19 11:02:54] START variant=1 mode=no_ls seed=1029 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:56] DONE  variant=1 mode=no_ls seed=1029 best=5.0000 iters=5000 time=1.72s
+[2026-04-19 11:02:56] START variant=1 mode=no_ls seed=1030 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:02:58] DONE  variant=1 mode=no_ls seed=1030 best=5.0000 iters=5000 time=1.73s
+[2026-04-19 11:02:58] START variant=1 mode=no_ls seed=1031 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:00] DONE  variant=1 mode=no_ls seed=1031 best=5.0000 iters=5000 time=1.72s
+[2026-04-19 11:03:00] START variant=1 mode=no_ls seed=1032 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:00] DONE  variant=1 mode=no_ls seed=1032 best=0.0000 iters=1717 time=0.59s
+[2026-04-19 11:03:00] START variant=1 mode=no_ls seed=1033 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:00] DONE  variant=1 mode=no_ls seed=1033 best=0.0000 iters=447 time=0.16s
+[2026-04-19 11:03:00] START variant=1 mode=no_ls seed=1034 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:01] DONE  variant=1 mode=no_ls seed=1034 best=0.0000 iters=1499 time=0.52s
+[2026-04-19 11:03:01] START variant=1 mode=no_ls seed=1035 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:03] DONE  variant=1 mode=no_ls seed=1035 best=20.0000 iters=5000 time=1.74s
+[2026-04-19 11:03:03] START variant=1 mode=no_ls seed=1036 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:03] DONE  variant=1 mode=no_ls seed=1036 best=0.0000 iters=1813 time=0.62s
+[2026-04-19 11:03:03] START variant=1 mode=no_ls seed=1037 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:05] DONE  variant=1 mode=no_ls seed=1037 best=5.0000 iters=5000 time=1.70s
+[2026-04-19 11:03:05] START variant=1 mode=no_ls seed=1038 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:06] DONE  variant=1 mode=no_ls seed=1038 best=0.0000 iters=1232 time=0.42s
+[2026-04-19 11:03:06] START variant=1 mode=no_ls seed=1039 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:07] DONE  variant=1 mode=no_ls seed=1039 best=5.0000 iters=5000 time=1.71s
+[2026-04-19 11:03:07] START variant=1 mode=no_ls seed=1040 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:08] DONE  variant=1 mode=no_ls seed=1040 best=0.0000 iters=2723 time=0.93s
+[2026-04-19 11:03:08] START variant=1 mode=no_ls seed=1041 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:10] DONE  variant=1 mode=no_ls seed=1041 best=5.0000 iters=5000 time=1.71s
+[2026-04-19 11:03:10] START variant=1 mode=no_ls seed=1042 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:12] DONE  variant=1 mode=no_ls seed=1042 best=10.0000 iters=5000 time=1.71s
+[2026-04-19 11:03:12] START variant=1 mode=no_ls seed=1043 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:12] DONE  variant=1 mode=no_ls seed=1043 best=0.0000 iters=349 time=0.12s
+[2026-04-19 11:03:12] START variant=1 mode=no_ls seed=1044 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:12] DONE  variant=1 mode=no_ls seed=1044 best=0.0000 iters=715 time=0.25s
+[2026-04-19 11:03:12] START variant=1 mode=no_ls seed=1045 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:14] DONE  variant=1 mode=no_ls seed=1045 best=15.0000 iters=5000 time=1.73s
+[2026-04-19 11:03:14] START variant=1 mode=no_ls seed=1046 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:16] DONE  variant=1 mode=no_ls seed=1046 best=0.0000 iters=4621 time=1.58s
+[2026-04-19 11:03:16] START variant=1 mode=no_ls seed=1047 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:17] DONE  variant=1 mode=no_ls seed=1047 best=5.0000 iters=5000 time=1.71s
+[2026-04-19 11:03:17] START variant=1 mode=no_ls seed=1048 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:19] DONE  variant=1 mode=no_ls seed=1048 best=5.0000 iters=5000 time=1.72s
+[2026-04-19 11:03:19] START variant=1 mode=no_ls seed=1049 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:21] DONE  variant=1 mode=no_ls seed=1049 best=5.0000 iters=5000 time=1.71s
+[2026-04-19 11:03:21] variant=1 mode=no_ls: 50 seeds done in 0h 0m 53s  [150/500 total, elapsed 0h 0m 58s]
+[2026-04-19 11:03:21] --- variant=1 mode=ls (50 seeds) ---
+[2026-04-19 11:03:21] START variant=1 mode=ls seed=1000 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:21] DONE  variant=1 mode=ls seed=1000 best=0.0000 iters=247 time=0.10s
+[2026-04-19 11:03:21] START variant=1 mode=ls seed=1001 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:21] DONE  variant=1 mode=ls seed=1001 best=0.0000 iters=268 time=0.11s
+[2026-04-19 11:03:21] START variant=1 mode=ls seed=1002 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:22] DONE  variant=1 mode=ls seed=1002 best=0.0000 iters=842 time=0.35s
+[2026-04-19 11:03:22] START variant=1 mode=ls seed=1003 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:23] DONE  variant=1 mode=ls seed=1003 best=0.0000 iters=2762 time=1.15s
+[2026-04-19 11:03:23] START variant=1 mode=ls seed=1004 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:25] DONE  variant=1 mode=ls seed=1004 best=5.0000 iters=5000 time=2.06s
+[2026-04-19 11:03:25] START variant=1 mode=ls seed=1005 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:27] DONE  variant=1 mode=ls seed=1005 best=10.0000 iters=5000 time=2.15s
+[2026-04-19 11:03:27] START variant=1 mode=ls seed=1006 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:27] DONE  variant=1 mode=ls seed=1006 best=0.0000 iters=785 time=0.33s
+[2026-04-19 11:03:27] START variant=1 mode=ls seed=1007 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:29] DONE  variant=1 mode=ls seed=1007 best=5.0000 iters=5000 time=2.05s
+[2026-04-19 11:03:29] START variant=1 mode=ls seed=1008 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:30] DONE  variant=1 mode=ls seed=1008 best=0.0000 iters=196 time=0.08s
+[2026-04-19 11:03:30] START variant=1 mode=ls seed=1009 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:30] DONE  variant=1 mode=ls seed=1009 best=0.0000 iters=582 time=0.24s
+[2026-04-19 11:03:30] START variant=1 mode=ls seed=1010 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:32] DONE  variant=1 mode=ls seed=1010 best=5.0000 iters=5000 time=2.06s
+[2026-04-19 11:03:32] START variant=1 mode=ls seed=1011 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:33] DONE  variant=1 mode=ls seed=1011 best=0.0000 iters=2030 time=0.87s
+[2026-04-19 11:03:33] START variant=1 mode=ls seed=1012 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:35] DONE  variant=1 mode=ls seed=1012 best=15.0000 iters=5000 time=2.07s
+[2026-04-19 11:03:35] START variant=1 mode=ls seed=1013 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:37] DONE  variant=1 mode=ls seed=1013 best=5.0000 iters=5000 time=2.08s
+[2026-04-19 11:03:37] START variant=1 mode=ls seed=1014 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:39] DONE  variant=1 mode=ls seed=1014 best=5.0000 iters=5000 time=2.15s
+[2026-04-19 11:03:39] START variant=1 mode=ls seed=1015 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:40] DONE  variant=1 mode=ls seed=1015 best=0.0000 iters=765 time=0.32s
+[2026-04-19 11:03:40] START variant=1 mode=ls seed=1016 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:41] DONE  variant=1 mode=ls seed=1016 best=0.0000 iters=4474 time=1.86s
+[2026-04-19 11:03:42] START variant=1 mode=ls seed=1017 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:44] DONE  variant=1 mode=ls seed=1017 best=5.0000 iters=5000 time=2.11s
+[2026-04-19 11:03:44] START variant=1 mode=ls seed=1018 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:44] DONE  variant=1 mode=ls seed=1018 best=0.0000 iters=1350 time=0.56s
+[2026-04-19 11:03:44] START variant=1 mode=ls seed=1019 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:44] DONE  variant=1 mode=ls seed=1019 best=0.0000 iters=133 time=0.06s
+[2026-04-19 11:03:44] START variant=1 mode=ls seed=1020 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:45] DONE  variant=1 mode=ls seed=1020 best=0.0000 iters=431 time=0.18s
+[2026-04-19 11:03:45] START variant=1 mode=ls seed=1021 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:45] DONE  variant=1 mode=ls seed=1021 best=0.0000 iters=1777 time=0.72s
+[2026-04-19 11:03:45] START variant=1 mode=ls seed=1022 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:47] DONE  variant=1 mode=ls seed=1022 best=25.0000 iters=5000 time=2.11s
+[2026-04-19 11:03:47] START variant=1 mode=ls seed=1023 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:50] DONE  variant=1 mode=ls seed=1023 best=5.0000 iters=5000 time=2.11s
+[2026-04-19 11:03:50] START variant=1 mode=ls seed=1024 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:50] DONE  variant=1 mode=ls seed=1024 best=0.0000 iters=1539 time=0.63s
+[2026-04-19 11:03:50] START variant=1 mode=ls seed=1025 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:52] DONE  variant=1 mode=ls seed=1025 best=5.0000 iters=5000 time=2.10s
+[2026-04-19 11:03:52] START variant=1 mode=ls seed=1026 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:53] DONE  variant=1 mode=ls seed=1026 best=0.0000 iters=1047 time=0.44s
+[2026-04-19 11:03:53] START variant=1 mode=ls seed=1027 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:53] DONE  variant=1 mode=ls seed=1027 best=0.0000 iters=871 time=0.36s
+[2026-04-19 11:03:53] START variant=1 mode=ls seed=1028 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:53] DONE  variant=1 mode=ls seed=1028 best=0.0000 iters=112 time=0.05s
+[2026-04-19 11:03:53] START variant=1 mode=ls seed=1029 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:54] DONE  variant=1 mode=ls seed=1029 best=0.0000 iters=641 time=0.27s
+[2026-04-19 11:03:54] START variant=1 mode=ls seed=1030 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:54] DONE  variant=1 mode=ls seed=1030 best=0.0000 iters=268 time=0.11s
+[2026-04-19 11:03:54] START variant=1 mode=ls seed=1031 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:54] DONE  variant=1 mode=ls seed=1031 best=0.0000 iters=186 time=0.08s
+[2026-04-19 11:03:54] START variant=1 mode=ls seed=1032 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:54] DONE  variant=1 mode=ls seed=1032 best=0.0000 iters=939 time=0.40s
+[2026-04-19 11:03:54] START variant=1 mode=ls seed=1033 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:55] DONE  variant=1 mode=ls seed=1033 best=0.0000 iters=707 time=0.29s
+[2026-04-19 11:03:55] START variant=1 mode=ls seed=1034 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:55] DONE  variant=1 mode=ls seed=1034 best=0.0000 iters=296 time=0.12s
+[2026-04-19 11:03:55] START variant=1 mode=ls seed=1035 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:56] DONE  variant=1 mode=ls seed=1035 best=0.0000 iters=3439 time=1.42s
+[2026-04-19 11:03:56] START variant=1 mode=ls seed=1036 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:58] DONE  variant=1 mode=ls seed=1036 best=5.0000 iters=5000 time=2.09s
+[2026-04-19 11:03:58] START variant=1 mode=ls seed=1037 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:03:58] DONE  variant=1 mode=ls seed=1037 best=0.0000 iters=142 time=0.06s
+[2026-04-19 11:03:58] START variant=1 mode=ls seed=1038 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:01] DONE  variant=1 mode=ls seed=1038 best=5.0000 iters=5000 time=2.08s
+[2026-04-19 11:04:01] START variant=1 mode=ls seed=1039 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:01] DONE  variant=1 mode=ls seed=1039 best=0.0000 iters=685 time=0.29s
+[2026-04-19 11:04:01] START variant=1 mode=ls seed=1040 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:01] DONE  variant=1 mode=ls seed=1040 best=0.0000 iters=540 time=0.22s
+[2026-04-19 11:04:01] START variant=1 mode=ls seed=1041 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:03] DONE  variant=1 mode=ls seed=1041 best=5.0000 iters=5000 time=2.09s
+[2026-04-19 11:04:03] START variant=1 mode=ls seed=1042 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:05] DONE  variant=1 mode=ls seed=1042 best=0.0000 iters=2895 time=1.24s
+[2026-04-19 11:04:05] START variant=1 mode=ls seed=1043 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:05] DONE  variant=1 mode=ls seed=1043 best=0.0000 iters=566 time=0.24s
+[2026-04-19 11:04:05] START variant=1 mode=ls seed=1044 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:05] DONE  variant=1 mode=ls seed=1044 best=0.0000 iters=516 time=0.21s
+[2026-04-19 11:04:05] START variant=1 mode=ls seed=1045 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:07] DONE  variant=1 mode=ls seed=1045 best=5.0000 iters=5000 time=2.13s
+[2026-04-19 11:04:07] START variant=1 mode=ls seed=1046 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:07] DONE  variant=1 mode=ls seed=1046 best=0.0000 iters=253 time=0.11s
+[2026-04-19 11:04:07] START variant=1 mode=ls seed=1047 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:09] DONE  variant=1 mode=ls seed=1047 best=5.0000 iters=5000 time=2.08s
+[2026-04-19 11:04:09] START variant=1 mode=ls seed=1048 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:10] DONE  variant=1 mode=ls seed=1048 best=0.0000 iters=276 time=0.12s
+[2026-04-19 11:04:10] START variant=1 mode=ls seed=1049 V=60 L=12 G=10 A=8 max_iter=5000
+[2026-04-19 11:04:12] DONE  variant=1 mode=ls seed=1049 best=5.0000 iters=5000 time=2.15s
+[2026-04-19 11:04:12] variant=1 mode=ls: 50 seeds done in 0h 0m 51s  [200/500 total, elapsed 0h 1m 49s]
+[2026-04-19 11:04:12] --- variant=2 mode=no_ls (50 seeds) ---
+[2026-04-19 11:04:12] START variant=2 mode=no_ls seed=1000 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:15] DONE  variant=2 mode=no_ls seed=1000 best=20.0000 iters=5000 time=3.04s
+[2026-04-19 11:04:15] START variant=2 mode=no_ls seed=1001 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:15] DONE  variant=2 mode=no_ls seed=1001 best=0.0000 iters=841 time=0.50s
+[2026-04-19 11:04:15] START variant=2 mode=no_ls seed=1002 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:18] DONE  variant=2 mode=no_ls seed=1002 best=10.0000 iters=5000 time=3.03s
+[2026-04-19 11:04:19] START variant=2 mode=no_ls seed=1003 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:22] DONE  variant=2 mode=no_ls seed=1003 best=30.0000 iters=5000 time=3.04s
+[2026-04-19 11:04:22] START variant=2 mode=no_ls seed=1004 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:25] DONE  variant=2 mode=no_ls seed=1004 best=5.0000 iters=5000 time=3.08s
+[2026-04-19 11:04:25] START variant=2 mode=no_ls seed=1005 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:28] DONE  variant=2 mode=no_ls seed=1005 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:04:28] START variant=2 mode=no_ls seed=1006 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:31] DONE  variant=2 mode=no_ls seed=1006 best=15.0000 iters=5000 time=3.04s
+[2026-04-19 11:04:31] START variant=2 mode=no_ls seed=1007 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:34] DONE  variant=2 mode=no_ls seed=1007 best=20.0000 iters=5000 time=3.03s
+[2026-04-19 11:04:34] START variant=2 mode=no_ls seed=1008 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:37] DONE  variant=2 mode=no_ls seed=1008 best=10.0000 iters=5000 time=3.06s
+[2026-04-19 11:04:37] START variant=2 mode=no_ls seed=1009 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:40] DONE  variant=2 mode=no_ls seed=1009 best=10.0000 iters=5000 time=3.09s
+[2026-04-19 11:04:40] START variant=2 mode=no_ls seed=1010 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:43] DONE  variant=2 mode=no_ls seed=1010 best=5.0000 iters=5000 time=3.03s
+[2026-04-19 11:04:43] START variant=2 mode=no_ls seed=1011 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:46] DONE  variant=2 mode=no_ls seed=1011 best=15.0000 iters=5000 time=3.01s
+[2026-04-19 11:04:46] START variant=2 mode=no_ls seed=1012 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:49] DONE  variant=2 mode=no_ls seed=1012 best=5.0000 iters=5000 time=2.99s
+[2026-04-19 11:04:49] START variant=2 mode=no_ls seed=1013 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:52] DONE  variant=2 mode=no_ls seed=1013 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:04:52] START variant=2 mode=no_ls seed=1014 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:55] DONE  variant=2 mode=no_ls seed=1014 best=15.0000 iters=5000 time=3.03s
+[2026-04-19 11:04:55] START variant=2 mode=no_ls seed=1015 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:04:58] DONE  variant=2 mode=no_ls seed=1015 best=10.0000 iters=5000 time=3.01s
+[2026-04-19 11:04:58] START variant=2 mode=no_ls seed=1016 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:02] DONE  variant=2 mode=no_ls seed=1016 best=5.0000 iters=5000 time=3.02s
+[2026-04-19 11:05:02] START variant=2 mode=no_ls seed=1017 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:05] DONE  variant=2 mode=no_ls seed=1017 best=5.0000 iters=5000 time=3.05s
+[2026-04-19 11:05:05] START variant=2 mode=no_ls seed=1018 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:08] DONE  variant=2 mode=no_ls seed=1018 best=25.0000 iters=5000 time=3.04s
+[2026-04-19 11:05:08] START variant=2 mode=no_ls seed=1019 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:10] DONE  variant=2 mode=no_ls seed=1019 best=0.0000 iters=3847 time=2.34s
+[2026-04-19 11:05:10] START variant=2 mode=no_ls seed=1020 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:13] DONE  variant=2 mode=no_ls seed=1020 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:05:13] START variant=2 mode=no_ls seed=1021 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:14] DONE  variant=2 mode=no_ls seed=1021 best=0.0000 iters=664 time=0.39s
+[2026-04-19 11:05:14] START variant=2 mode=no_ls seed=1022 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:17] DONE  variant=2 mode=no_ls seed=1022 best=5.0000 iters=5000 time=3.05s
+[2026-04-19 11:05:17] START variant=2 mode=no_ls seed=1023 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:20] DONE  variant=2 mode=no_ls seed=1023 best=25.0000 iters=5000 time=3.07s
+[2026-04-19 11:05:20] START variant=2 mode=no_ls seed=1024 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:23] DONE  variant=2 mode=no_ls seed=1024 best=40.0000 iters=5000 time=3.10s
+[2026-04-19 11:05:23] START variant=2 mode=no_ls seed=1025 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:26] DONE  variant=2 mode=no_ls seed=1025 best=25.0000 iters=5000 time=3.09s
+[2026-04-19 11:05:26] START variant=2 mode=no_ls seed=1026 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:26] DONE  variant=2 mode=no_ls seed=1026 best=0.0000 iters=504 time=0.31s
+[2026-04-19 11:05:26] START variant=2 mode=no_ls seed=1027 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:29] DONE  variant=2 mode=no_ls seed=1027 best=30.0000 iters=5000 time=3.07s
+[2026-04-19 11:05:29] START variant=2 mode=no_ls seed=1028 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:33] DONE  variant=2 mode=no_ls seed=1028 best=20.0000 iters=5000 time=3.07s
+[2026-04-19 11:05:33] START variant=2 mode=no_ls seed=1029 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:36] DONE  variant=2 mode=no_ls seed=1029 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:05:36] START variant=2 mode=no_ls seed=1030 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:36] DONE  variant=2 mode=no_ls seed=1030 best=0.0000 iters=1110 time=0.67s
+[2026-04-19 11:05:36] START variant=2 mode=no_ls seed=1031 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:39] DONE  variant=2 mode=no_ls seed=1031 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:05:39] START variant=2 mode=no_ls seed=1032 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:42] DONE  variant=2 mode=no_ls seed=1032 best=0.0000 iters=4722 time=2.86s
+[2026-04-19 11:05:42] START variant=2 mode=no_ls seed=1033 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:45] DONE  variant=2 mode=no_ls seed=1033 best=5.0000 iters=5000 time=2.99s
+[2026-04-19 11:05:45] START variant=2 mode=no_ls seed=1034 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:47] DONE  variant=2 mode=no_ls seed=1034 best=0.0000 iters=2553 time=1.53s
+[2026-04-19 11:05:47] START variant=2 mode=no_ls seed=1035 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:49] DONE  variant=2 mode=no_ls seed=1035 best=0.0000 iters=3567 time=2.16s
+[2026-04-19 11:05:49] START variant=2 mode=no_ls seed=1036 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:52] DONE  variant=2 mode=no_ls seed=1036 best=10.0000 iters=5000 time=3.00s
+[2026-04-19 11:05:52] START variant=2 mode=no_ls seed=1037 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:55] DONE  variant=2 mode=no_ls seed=1037 best=5.0000 iters=5000 time=3.01s
+[2026-04-19 11:05:55] START variant=2 mode=no_ls seed=1038 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:05:58] DONE  variant=2 mode=no_ls seed=1038 best=10.0000 iters=5000 time=3.08s
+[2026-04-19 11:05:58] START variant=2 mode=no_ls seed=1039 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:01] DONE  variant=2 mode=no_ls seed=1039 best=15.0000 iters=5000 time=3.05s
+[2026-04-19 11:06:01] START variant=2 mode=no_ls seed=1040 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:04] DONE  variant=2 mode=no_ls seed=1040 best=5.0000 iters=5000 time=3.02s
+[2026-04-19 11:06:04] START variant=2 mode=no_ls seed=1041 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:07] DONE  variant=2 mode=no_ls seed=1041 best=10.0000 iters=5000 time=2.99s
+[2026-04-19 11:06:07] START variant=2 mode=no_ls seed=1042 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:11] DONE  variant=2 mode=no_ls seed=1042 best=10.0000 iters=5000 time=3.04s
+[2026-04-19 11:06:11] START variant=2 mode=no_ls seed=1043 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:12] DONE  variant=2 mode=no_ls seed=1043 best=0.0000 iters=2710 time=1.66s
+[2026-04-19 11:06:12] START variant=2 mode=no_ls seed=1044 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:15] DONE  variant=2 mode=no_ls seed=1044 best=0.0000 iters=4906 time=3.01s
+[2026-04-19 11:06:15] START variant=2 mode=no_ls seed=1045 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:18] DONE  variant=2 mode=no_ls seed=1045 best=0.0000 iters=4605 time=2.81s
+[2026-04-19 11:06:18] START variant=2 mode=no_ls seed=1046 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:20] DONE  variant=2 mode=no_ls seed=1046 best=0.0000 iters=3068 time=1.87s
+[2026-04-19 11:06:20] START variant=2 mode=no_ls seed=1047 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:23] DONE  variant=2 mode=no_ls seed=1047 best=30.0000 iters=5000 time=3.06s
+[2026-04-19 11:06:23] START variant=2 mode=no_ls seed=1048 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:26] DONE  variant=2 mode=no_ls seed=1048 best=25.0000 iters=5000 time=3.05s
+[2026-04-19 11:06:26] START variant=2 mode=no_ls seed=1049 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:29] DONE  variant=2 mode=no_ls seed=1049 best=65.0000 iters=5000 time=3.07s
+[2026-04-19 11:06:29] variant=2 mode=no_ls: 50 seeds done in 0h 2m 17s  [250/500 total, elapsed 0h 4m 6s]
+[2026-04-19 11:06:29] --- variant=2 mode=ls (50 seeds) ---
+[2026-04-19 11:06:29] START variant=2 mode=ls seed=1000 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:33] DONE  variant=2 mode=ls seed=1000 best=5.0000 iters=5000 time=3.84s
+[2026-04-19 11:06:33] START variant=2 mode=ls seed=1001 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:37] DONE  variant=2 mode=ls seed=1001 best=5.0000 iters=5000 time=3.83s
+[2026-04-19 11:06:37] START variant=2 mode=ls seed=1002 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:41] DONE  variant=2 mode=ls seed=1002 best=15.0000 iters=5000 time=3.73s
+[2026-04-19 11:06:41] START variant=2 mode=ls seed=1003 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:45] DONE  variant=2 mode=ls seed=1003 best=5.0000 iters=5000 time=3.75s
+[2026-04-19 11:06:45] START variant=2 mode=ls seed=1004 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:46] DONE  variant=2 mode=ls seed=1004 best=0.0000 iters=1200 time=0.89s
+[2026-04-19 11:06:46] START variant=2 mode=ls seed=1005 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:47] DONE  variant=2 mode=ls seed=1005 best=0.0000 iters=1529 time=1.15s
+[2026-04-19 11:06:47] START variant=2 mode=ls seed=1006 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:51] DONE  variant=2 mode=ls seed=1006 best=20.0000 iters=5000 time=3.92s
+[2026-04-19 11:06:51] START variant=2 mode=ls seed=1007 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:51] DONE  variant=2 mode=ls seed=1007 best=0.0000 iters=945 time=0.75s
+[2026-04-19 11:06:52] START variant=2 mode=ls seed=1008 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:53] DONE  variant=2 mode=ls seed=1008 best=0.0000 iters=1943 time=1.51s
+[2026-04-19 11:06:53] START variant=2 mode=ls seed=1009 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:06:57] DONE  variant=2 mode=ls seed=1009 best=15.0000 iters=5000 time=3.90s
+[2026-04-19 11:06:57] START variant=2 mode=ls seed=1010 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:01] DONE  variant=2 mode=ls seed=1010 best=10.0000 iters=5000 time=3.78s
+[2026-04-19 11:07:01] START variant=2 mode=ls seed=1011 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:05] DONE  variant=2 mode=ls seed=1011 best=5.0000 iters=5000 time=3.88s
+[2026-04-19 11:07:05] START variant=2 mode=ls seed=1012 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:09] DONE  variant=2 mode=ls seed=1012 best=5.0000 iters=5000 time=3.78s
+[2026-04-19 11:07:09] START variant=2 mode=ls seed=1013 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:12] DONE  variant=2 mode=ls seed=1013 best=5.0000 iters=5000 time=3.81s
+[2026-04-19 11:07:12] START variant=2 mode=ls seed=1014 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:16] DONE  variant=2 mode=ls seed=1014 best=20.0000 iters=5000 time=3.83s
+[2026-04-19 11:07:16] START variant=2 mode=ls seed=1015 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:20] DONE  variant=2 mode=ls seed=1015 best=10.0000 iters=5000 time=3.83s
+[2026-04-19 11:07:20] START variant=2 mode=ls seed=1016 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:24] DONE  variant=2 mode=ls seed=1016 best=15.0000 iters=5000 time=3.87s
+[2026-04-19 11:07:24] START variant=2 mode=ls seed=1017 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:28] DONE  variant=2 mode=ls seed=1017 best=10.0000 iters=5000 time=3.82s
+[2026-04-19 11:07:28] START variant=2 mode=ls seed=1018 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:29] DONE  variant=2 mode=ls seed=1018 best=0.0000 iters=1741 time=1.32s
+[2026-04-19 11:07:29] START variant=2 mode=ls seed=1019 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:33] DONE  variant=2 mode=ls seed=1019 best=10.0000 iters=5000 time=3.78s
+[2026-04-19 11:07:33] START variant=2 mode=ls seed=1020 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:35] DONE  variant=2 mode=ls seed=1020 best=0.0000 iters=1981 time=1.52s
+[2026-04-19 11:07:35] START variant=2 mode=ls seed=1021 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:38] DONE  variant=2 mode=ls seed=1021 best=15.0000 iters=5000 time=3.74s
+[2026-04-19 11:07:38] START variant=2 mode=ls seed=1022 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:40] DONE  variant=2 mode=ls seed=1022 best=0.0000 iters=2245 time=1.68s
+[2026-04-19 11:07:40] START variant=2 mode=ls seed=1023 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:44] DONE  variant=2 mode=ls seed=1023 best=15.0000 iters=5000 time=3.73s
+[2026-04-19 11:07:44] START variant=2 mode=ls seed=1024 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:48] DONE  variant=2 mode=ls seed=1024 best=10.0000 iters=5000 time=3.90s
+[2026-04-19 11:07:48] START variant=2 mode=ls seed=1025 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:52] DONE  variant=2 mode=ls seed=1025 best=10.0000 iters=5000 time=3.76s
+[2026-04-19 11:07:52] START variant=2 mode=ls seed=1026 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:53] DONE  variant=2 mode=ls seed=1026 best=0.0000 iters=1306 time=0.98s
+[2026-04-19 11:07:53] START variant=2 mode=ls seed=1027 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:56] DONE  variant=2 mode=ls seed=1027 best=5.0000 iters=5000 time=3.84s
+[2026-04-19 11:07:56] START variant=2 mode=ls seed=1028 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:58] DONE  variant=2 mode=ls seed=1028 best=0.0000 iters=1912 time=1.44s
+[2026-04-19 11:07:58] START variant=2 mode=ls seed=1029 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:07:59] DONE  variant=2 mode=ls seed=1029 best=0.0000 iters=1124 time=0.85s
+[2026-04-19 11:07:59] START variant=2 mode=ls seed=1030 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:03] DONE  variant=2 mode=ls seed=1030 best=25.0000 iters=5000 time=3.83s
+[2026-04-19 11:08:03] START variant=2 mode=ls seed=1031 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:07] DONE  variant=2 mode=ls seed=1031 best=5.0000 iters=5000 time=3.81s
+[2026-04-19 11:08:07] START variant=2 mode=ls seed=1032 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:10] DONE  variant=2 mode=ls seed=1032 best=15.0000 iters=5000 time=3.80s
+[2026-04-19 11:08:10] START variant=2 mode=ls seed=1033 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:14] DONE  variant=2 mode=ls seed=1033 best=10.0000 iters=5000 time=3.92s
+[2026-04-19 11:08:14] START variant=2 mode=ls seed=1034 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:18] DONE  variant=2 mode=ls seed=1034 best=10.0000 iters=5000 time=3.78s
+[2026-04-19 11:08:18] START variant=2 mode=ls seed=1035 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:21] DONE  variant=2 mode=ls seed=1035 best=0.0000 iters=3341 time=2.55s
+[2026-04-19 11:08:21] START variant=2 mode=ls seed=1036 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:24] DONE  variant=2 mode=ls seed=1036 best=5.0000 iters=5000 time=3.73s
+[2026-04-19 11:08:25] START variant=2 mode=ls seed=1037 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:28] DONE  variant=2 mode=ls seed=1037 best=10.0000 iters=5000 time=3.76s
+[2026-04-19 11:08:28] START variant=2 mode=ls seed=1038 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:30] DONE  variant=2 mode=ls seed=1038 best=0.0000 iters=2114 time=1.61s
+[2026-04-19 11:08:30] START variant=2 mode=ls seed=1039 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:34] DONE  variant=2 mode=ls seed=1039 best=35.0000 iters=5000 time=3.82s
+[2026-04-19 11:08:34] START variant=2 mode=ls seed=1040 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:37] DONE  variant=2 mode=ls seed=1040 best=0.0000 iters=3749 time=2.92s
+[2026-04-19 11:08:37] START variant=2 mode=ls seed=1041 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:41] DONE  variant=2 mode=ls seed=1041 best=40.0000 iters=5000 time=3.87s
+[2026-04-19 11:08:41] START variant=2 mode=ls seed=1042 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:44] DONE  variant=2 mode=ls seed=1042 best=5.0000 iters=5000 time=3.81s
+[2026-04-19 11:08:45] START variant=2 mode=ls seed=1043 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:47] DONE  variant=2 mode=ls seed=1043 best=0.0000 iters=2716 time=2.13s
+[2026-04-19 11:08:47] START variant=2 mode=ls seed=1044 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:51] DONE  variant=2 mode=ls seed=1044 best=10.0000 iters=5000 time=3.86s
+[2026-04-19 11:08:51] START variant=2 mode=ls seed=1045 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:54] DONE  variant=2 mode=ls seed=1045 best=5.0000 iters=5000 time=3.78s
+[2026-04-19 11:08:54] START variant=2 mode=ls seed=1046 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:08:58] DONE  variant=2 mode=ls seed=1046 best=10.0000 iters=5000 time=3.84s
+[2026-04-19 11:08:58] START variant=2 mode=ls seed=1047 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:09:02] DONE  variant=2 mode=ls seed=1047 best=15.0000 iters=5000 time=3.89s
+[2026-04-19 11:09:02] START variant=2 mode=ls seed=1048 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:09:06] DONE  variant=2 mode=ls seed=1048 best=15.0000 iters=5000 time=3.79s
+[2026-04-19 11:09:06] START variant=2 mode=ls seed=1049 V=120 L=20 G=15 A=10 max_iter=5000
+[2026-04-19 11:09:10] DONE  variant=2 mode=ls seed=1049 best=10.0000 iters=5000 time=3.86s
+[2026-04-19 11:09:10] variant=2 mode=ls: 50 seeds done in 0h 2m 41s  [300/500 total, elapsed 0h 6m 47s]
+[2026-04-19 11:09:10] --- variant=3 mode=no_ls (50 seeds) ---
+[2026-04-19 11:09:10] START variant=3 mode=no_ls seed=1000 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:17] DONE  variant=3 mode=no_ls seed=1000 best=100.0000 iters=5000 time=6.79s
+[2026-04-19 11:09:17] START variant=3 mode=no_ls seed=1001 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:24] DONE  variant=3 mode=no_ls seed=1001 best=587.5000 iters=5000 time=6.81s
+[2026-04-19 11:09:24] START variant=3 mode=no_ls seed=1002 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:30] DONE  variant=3 mode=no_ls seed=1002 best=340.0000 iters=5000 time=6.72s
+[2026-04-19 11:09:30] START variant=3 mode=no_ls seed=1003 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:37] DONE  variant=3 mode=no_ls seed=1003 best=75.0000 iters=5000 time=6.66s
+[2026-04-19 11:09:37] START variant=3 mode=no_ls seed=1004 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:44] DONE  variant=3 mode=no_ls seed=1004 best=270.0000 iters=5000 time=6.71s
+[2026-04-19 11:09:44] START variant=3 mode=no_ls seed=1005 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:51] DONE  variant=3 mode=no_ls seed=1005 best=355.0000 iters=5000 time=6.74s
+[2026-04-19 11:09:51] START variant=3 mode=no_ls seed=1006 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:09:57] DONE  variant=3 mode=no_ls seed=1006 best=175.0000 iters=5000 time=6.74s
+[2026-04-19 11:09:57] START variant=3 mode=no_ls seed=1007 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:04] DONE  variant=3 mode=no_ls seed=1007 best=45.0000 iters=5000 time=6.61s
+[2026-04-19 11:10:04] START variant=3 mode=no_ls seed=1008 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:11] DONE  variant=3 mode=no_ls seed=1008 best=145.0000 iters=5000 time=6.66s
+[2026-04-19 11:10:11] START variant=3 mode=no_ls seed=1009 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:17] DONE  variant=3 mode=no_ls seed=1009 best=327.5000 iters=5000 time=6.71s
+[2026-04-19 11:10:17] START variant=3 mode=no_ls seed=1010 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:24] DONE  variant=3 mode=no_ls seed=1010 best=180.0000 iters=5000 time=6.72s
+[2026-04-19 11:10:24] START variant=3 mode=no_ls seed=1011 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:31] DONE  variant=3 mode=no_ls seed=1011 best=180.0000 iters=5000 time=6.77s
+[2026-04-19 11:10:31] START variant=3 mode=no_ls seed=1012 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:38] DONE  variant=3 mode=no_ls seed=1012 best=95.0000 iters=5000 time=6.67s
+[2026-04-19 11:10:38] START variant=3 mode=no_ls seed=1013 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:44] DONE  variant=3 mode=no_ls seed=1013 best=225.0000 iters=5000 time=6.71s
+[2026-04-19 11:10:44] START variant=3 mode=no_ls seed=1014 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:51] DONE  variant=3 mode=no_ls seed=1014 best=195.0000 iters=5000 time=6.68s
+[2026-04-19 11:10:51] START variant=3 mode=no_ls seed=1015 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:10:58] DONE  variant=3 mode=no_ls seed=1015 best=285.0000 iters=5000 time=6.74s
+[2026-04-19 11:10:58] START variant=3 mode=no_ls seed=1016 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:05] DONE  variant=3 mode=no_ls seed=1016 best=130.0000 iters=5000 time=6.77s
+[2026-04-19 11:11:05] START variant=3 mode=no_ls seed=1017 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:11] DONE  variant=3 mode=no_ls seed=1017 best=155.0000 iters=5000 time=6.71s
+[2026-04-19 11:11:12] START variant=3 mode=no_ls seed=1018 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:18] DONE  variant=3 mode=no_ls seed=1018 best=367.5000 iters=5000 time=6.76s
+[2026-04-19 11:11:18] START variant=3 mode=no_ls seed=1019 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:25] DONE  variant=3 mode=no_ls seed=1019 best=375.0000 iters=5000 time=6.86s
+[2026-04-19 11:11:25] START variant=3 mode=no_ls seed=1020 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:32] DONE  variant=3 mode=no_ls seed=1020 best=130.0000 iters=5000 time=6.67s
+[2026-04-19 11:11:32] START variant=3 mode=no_ls seed=1021 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:39] DONE  variant=3 mode=no_ls seed=1021 best=240.0000 iters=5000 time=6.79s
+[2026-04-19 11:11:39] START variant=3 mode=no_ls seed=1022 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:45] DONE  variant=3 mode=no_ls seed=1022 best=185.0000 iters=5000 time=6.71s
+[2026-04-19 11:11:46] START variant=3 mode=no_ls seed=1023 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:52] DONE  variant=3 mode=no_ls seed=1023 best=390.0000 iters=5000 time=6.75s
+[2026-04-19 11:11:52] START variant=3 mode=no_ls seed=1024 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:11:59] DONE  variant=3 mode=no_ls seed=1024 best=125.0000 iters=5000 time=6.66s
+[2026-04-19 11:11:59] START variant=3 mode=no_ls seed=1025 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:06] DONE  variant=3 mode=no_ls seed=1025 best=225.0000 iters=5000 time=6.74s
+[2026-04-19 11:12:06] START variant=3 mode=no_ls seed=1026 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:13] DONE  variant=3 mode=no_ls seed=1026 best=275.0000 iters=5000 time=6.73s
+[2026-04-19 11:12:13] START variant=3 mode=no_ls seed=1027 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:19] DONE  variant=3 mode=no_ls seed=1027 best=215.0000 iters=5000 time=6.73s
+[2026-04-19 11:12:19] START variant=3 mode=no_ls seed=1028 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:26] DONE  variant=3 mode=no_ls seed=1028 best=220.0000 iters=5000 time=6.68s
+[2026-04-19 11:12:26] START variant=3 mode=no_ls seed=1029 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:33] DONE  variant=3 mode=no_ls seed=1029 best=190.0000 iters=5000 time=6.73s
+[2026-04-19 11:12:33] START variant=3 mode=no_ls seed=1030 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:40] DONE  variant=3 mode=no_ls seed=1030 best=220.0000 iters=5000 time=6.84s
+[2026-04-19 11:12:40] START variant=3 mode=no_ls seed=1031 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:46] DONE  variant=3 mode=no_ls seed=1031 best=170.0000 iters=5000 time=6.68s
+[2026-04-19 11:12:46] START variant=3 mode=no_ls seed=1032 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:12:53] DONE  variant=3 mode=no_ls seed=1032 best=55.0000 iters=5000 time=6.64s
+[2026-04-19 11:12:53] START variant=3 mode=no_ls seed=1033 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:00] DONE  variant=3 mode=no_ls seed=1033 best=185.0000 iters=5000 time=6.75s
+[2026-04-19 11:13:00] START variant=3 mode=no_ls seed=1034 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:07] DONE  variant=3 mode=no_ls seed=1034 best=130.0000 iters=5000 time=6.74s
+[2026-04-19 11:13:07] START variant=3 mode=no_ls seed=1035 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:13] DONE  variant=3 mode=no_ls seed=1035 best=110.0000 iters=5000 time=6.72s
+[2026-04-19 11:13:13] START variant=3 mode=no_ls seed=1036 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:20] DONE  variant=3 mode=no_ls seed=1036 best=420.0000 iters=5000 time=6.80s
+[2026-04-19 11:13:20] START variant=3 mode=no_ls seed=1037 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:27] DONE  variant=3 mode=no_ls seed=1037 best=75.0000 iters=5000 time=6.65s
+[2026-04-19 11:13:27] START variant=3 mode=no_ls seed=1038 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:34] DONE  variant=3 mode=no_ls seed=1038 best=155.0000 iters=5000 time=6.69s
+[2026-04-19 11:13:34] START variant=3 mode=no_ls seed=1039 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:40] DONE  variant=3 mode=no_ls seed=1039 best=270.0000 iters=5000 time=6.74s
+[2026-04-19 11:13:40] START variant=3 mode=no_ls seed=1040 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:47] DONE  variant=3 mode=no_ls seed=1040 best=165.0000 iters=5000 time=6.70s
+[2026-04-19 11:13:47] START variant=3 mode=no_ls seed=1041 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:13:54] DONE  variant=3 mode=no_ls seed=1041 best=135.0000 iters=5000 time=6.69s
+[2026-04-19 11:13:54] START variant=3 mode=no_ls seed=1042 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:01] DONE  variant=3 mode=no_ls seed=1042 best=365.0000 iters=5000 time=6.68s
+[2026-04-19 11:14:01] START variant=3 mode=no_ls seed=1043 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:07] DONE  variant=3 mode=no_ls seed=1043 best=407.5000 iters=5000 time=6.84s
+[2026-04-19 11:14:07] START variant=3 mode=no_ls seed=1044 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:14] DONE  variant=3 mode=no_ls seed=1044 best=490.0000 iters=5000 time=6.75s
+[2026-04-19 11:14:14] START variant=3 mode=no_ls seed=1045 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:21] DONE  variant=3 mode=no_ls seed=1045 best=125.0000 iters=5000 time=6.69s
+[2026-04-19 11:14:21] START variant=3 mode=no_ls seed=1046 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:28] DONE  variant=3 mode=no_ls seed=1046 best=245.0000 iters=5000 time=6.92s
+[2026-04-19 11:14:28] START variant=3 mode=no_ls seed=1047 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:35] DONE  variant=3 mode=no_ls seed=1047 best=60.0000 iters=5000 time=6.63s
+[2026-04-19 11:14:35] START variant=3 mode=no_ls seed=1048 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:41] DONE  variant=3 mode=no_ls seed=1048 best=50.0000 iters=5000 time=6.79s
+[2026-04-19 11:14:41] START variant=3 mode=no_ls seed=1049 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:48] DONE  variant=3 mode=no_ls seed=1049 best=125.0000 iters=5000 time=6.71s
+[2026-04-19 11:14:48] variant=3 mode=no_ls: 50 seeds done in 0h 5m 38s  [350/500 total, elapsed 0h 12m 25s]
+[2026-04-19 11:14:48] --- variant=3 mode=ls (50 seeds) ---
+[2026-04-19 11:14:48] START variant=3 mode=ls seed=1000 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:14:57] DONE  variant=3 mode=ls seed=1000 best=390.0000 iters=5000 time=9.07s
+[2026-04-19 11:14:57] START variant=3 mode=ls seed=1001 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:06] DONE  variant=3 mode=ls seed=1001 best=165.0000 iters=5000 time=8.97s
+[2026-04-19 11:15:06] START variant=3 mode=ls seed=1002 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:15] DONE  variant=3 mode=ls seed=1002 best=115.0000 iters=5000 time=9.12s
+[2026-04-19 11:15:15] START variant=3 mode=ls seed=1003 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:24] DONE  variant=3 mode=ls seed=1003 best=185.0000 iters=5000 time=8.63s
+[2026-04-19 11:15:24] START variant=3 mode=ls seed=1004 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:33] DONE  variant=3 mode=ls seed=1004 best=130.0000 iters=5000 time=9.12s
+[2026-04-19 11:15:33] START variant=3 mode=ls seed=1005 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:43] DONE  variant=3 mode=ls seed=1005 best=105.0000 iters=5000 time=9.24s
+[2026-04-19 11:15:43] START variant=3 mode=ls seed=1006 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:15:52] DONE  variant=3 mode=ls seed=1006 best=30.0000 iters=5000 time=9.00s
+[2026-04-19 11:15:52] START variant=3 mode=ls seed=1007 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:01] DONE  variant=3 mode=ls seed=1007 best=65.0000 iters=5000 time=9.08s
+[2026-04-19 11:16:01] START variant=3 mode=ls seed=1008 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:10] DONE  variant=3 mode=ls seed=1008 best=90.0000 iters=5000 time=9.03s
+[2026-04-19 11:16:10] START variant=3 mode=ls seed=1009 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:19] DONE  variant=3 mode=ls seed=1009 best=195.0000 iters=5000 time=8.81s
+[2026-04-19 11:16:19] START variant=3 mode=ls seed=1010 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:28] DONE  variant=3 mode=ls seed=1010 best=60.0000 iters=5000 time=9.14s
+[2026-04-19 11:16:28] START variant=3 mode=ls seed=1011 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:37] DONE  variant=3 mode=ls seed=1011 best=55.0000 iters=5000 time=8.92s
+[2026-04-19 11:16:37] START variant=3 mode=ls seed=1012 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:46] DONE  variant=3 mode=ls seed=1012 best=125.0000 iters=5000 time=9.27s
+[2026-04-19 11:16:46] START variant=3 mode=ls seed=1013 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:16:55] DONE  variant=3 mode=ls seed=1013 best=195.0000 iters=5000 time=9.03s
+[2026-04-19 11:16:55] START variant=3 mode=ls seed=1014 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:04] DONE  variant=3 mode=ls seed=1014 best=65.0000 iters=5000 time=9.02s
+[2026-04-19 11:17:04] START variant=3 mode=ls seed=1015 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:13] DONE  variant=3 mode=ls seed=1015 best=80.0000 iters=5000 time=8.92s
+[2026-04-19 11:17:13] START variant=3 mode=ls seed=1016 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:22] DONE  variant=3 mode=ls seed=1016 best=160.0000 iters=5000 time=9.06s
+[2026-04-19 11:17:22] START variant=3 mode=ls seed=1017 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:31] DONE  variant=3 mode=ls seed=1017 best=90.0000 iters=5000 time=9.00s
+[2026-04-19 11:17:31] START variant=3 mode=ls seed=1018 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:40] DONE  variant=3 mode=ls seed=1018 best=135.0000 iters=5000 time=8.86s
+[2026-04-19 11:17:40] START variant=3 mode=ls seed=1019 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:49] DONE  variant=3 mode=ls seed=1019 best=40.0000 iters=5000 time=9.00s
+[2026-04-19 11:17:49] START variant=3 mode=ls seed=1020 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:17:58] DONE  variant=3 mode=ls seed=1020 best=125.0000 iters=5000 time=8.82s
+[2026-04-19 11:17:58] START variant=3 mode=ls seed=1021 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:07] DONE  variant=3 mode=ls seed=1021 best=70.0000 iters=5000 time=8.69s
+[2026-04-19 11:18:07] START variant=3 mode=ls seed=1022 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:16] DONE  variant=3 mode=ls seed=1022 best=432.5000 iters=5000 time=9.18s
+[2026-04-19 11:18:16] START variant=3 mode=ls seed=1023 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:25] DONE  variant=3 mode=ls seed=1023 best=175.0000 iters=5000 time=8.92s
+[2026-04-19 11:18:25] START variant=3 mode=ls seed=1024 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:34] DONE  variant=3 mode=ls seed=1024 best=125.0000 iters=5000 time=9.08s
+[2026-04-19 11:18:34] START variant=3 mode=ls seed=1025 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:43] DONE  variant=3 mode=ls seed=1025 best=225.0000 iters=5000 time=8.85s
+[2026-04-19 11:18:43] START variant=3 mode=ls seed=1026 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:18:52] DONE  variant=3 mode=ls seed=1026 best=110.0000 iters=5000 time=8.85s
+[2026-04-19 11:18:52] START variant=3 mode=ls seed=1027 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:01] DONE  variant=3 mode=ls seed=1027 best=175.0000 iters=5000 time=9.02s
+[2026-04-19 11:19:01] START variant=3 mode=ls seed=1028 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:10] DONE  variant=3 mode=ls seed=1028 best=110.0000 iters=5000 time=9.00s
+[2026-04-19 11:19:10] START variant=3 mode=ls seed=1029 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:19] DONE  variant=3 mode=ls seed=1029 best=190.0000 iters=5000 time=9.01s
+[2026-04-19 11:19:19] START variant=3 mode=ls seed=1030 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:28] DONE  variant=3 mode=ls seed=1030 best=195.0000 iters=5000 time=9.02s
+[2026-04-19 11:19:28] START variant=3 mode=ls seed=1031 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:37] DONE  variant=3 mode=ls seed=1031 best=145.0000 iters=5000 time=9.07s
+[2026-04-19 11:19:37] START variant=3 mode=ls seed=1032 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:46] DONE  variant=3 mode=ls seed=1032 best=190.0000 iters=5000 time=8.88s
+[2026-04-19 11:19:46] START variant=3 mode=ls seed=1033 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:19:55] DONE  variant=3 mode=ls seed=1033 best=100.0000 iters=5000 time=8.94s
+[2026-04-19 11:19:55] START variant=3 mode=ls seed=1034 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:04] DONE  variant=3 mode=ls seed=1034 best=245.0000 iters=5000 time=8.97s
+[2026-04-19 11:20:04] START variant=3 mode=ls seed=1035 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:13] DONE  variant=3 mode=ls seed=1035 best=100.0000 iters=5000 time=8.84s
+[2026-04-19 11:20:13] START variant=3 mode=ls seed=1036 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:22] DONE  variant=3 mode=ls seed=1036 best=70.0000 iters=5000 time=8.92s
+[2026-04-19 11:20:22] START variant=3 mode=ls seed=1037 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:31] DONE  variant=3 mode=ls seed=1037 best=70.0000 iters=5000 time=8.92s
+[2026-04-19 11:20:31] START variant=3 mode=ls seed=1038 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:40] DONE  variant=3 mode=ls seed=1038 best=175.0000 iters=5000 time=9.02s
+[2026-04-19 11:20:40] START variant=3 mode=ls seed=1039 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:49] DONE  variant=3 mode=ls seed=1039 best=140.0000 iters=5000 time=9.20s
+[2026-04-19 11:20:49] START variant=3 mode=ls seed=1040 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:20:58] DONE  variant=3 mode=ls seed=1040 best=175.0000 iters=5000 time=9.03s
+[2026-04-19 11:20:58] START variant=3 mode=ls seed=1041 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:07] DONE  variant=3 mode=ls seed=1041 best=165.0000 iters=5000 time=9.12s
+[2026-04-19 11:21:07] START variant=3 mode=ls seed=1042 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:16] DONE  variant=3 mode=ls seed=1042 best=155.0000 iters=5000 time=9.08s
+[2026-04-19 11:21:16] START variant=3 mode=ls seed=1043 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:25] DONE  variant=3 mode=ls seed=1043 best=125.0000 iters=5000 time=8.98s
+[2026-04-19 11:21:26] START variant=3 mode=ls seed=1044 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:35] DONE  variant=3 mode=ls seed=1044 best=260.0000 iters=5000 time=9.20s
+[2026-04-19 11:21:35] START variant=3 mode=ls seed=1045 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:44] DONE  variant=3 mode=ls seed=1045 best=240.0000 iters=5000 time=9.01s
+[2026-04-19 11:21:44] START variant=3 mode=ls seed=1046 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:21:53] DONE  variant=3 mode=ls seed=1046 best=60.0000 iters=5000 time=9.02s
+[2026-04-19 11:21:53] START variant=3 mode=ls seed=1047 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:22:02] DONE  variant=3 mode=ls seed=1047 best=135.0000 iters=5000 time=9.17s
+[2026-04-19 11:22:02] START variant=3 mode=ls seed=1048 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:22:11] DONE  variant=3 mode=ls seed=1048 best=90.0000 iters=5000 time=9.15s
+[2026-04-19 11:22:11] START variant=3 mode=ls seed=1049 V=250 L=35 G=25 A=15 max_iter=5000
+[2026-04-19 11:22:20] DONE  variant=3 mode=ls seed=1049 best=60.0000 iters=5000 time=8.94s
+[2026-04-19 11:22:20] variant=3 mode=ls: 50 seeds done in 0h 7m 32s  [400/500 total, elapsed 0h 19m 57s]
+[2026-04-19 11:22:20] --- variant=4 mode=no_ls (50 seeds) ---
+[2026-04-19 11:22:20] START variant=4 mode=no_ls seed=1000 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:22:35] DONE  variant=4 mode=no_ls seed=1000 best=1395.0000 iters=5000 time=14.88s
+[2026-04-19 11:22:35] START variant=4 mode=no_ls seed=1001 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:22:50] DONE  variant=4 mode=no_ls seed=1001 best=1075.0000 iters=5000 time=14.94s
+[2026-04-19 11:22:50] START variant=4 mode=no_ls seed=1002 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:23:05] DONE  variant=4 mode=no_ls seed=1002 best=1117.5000 iters=5000 time=14.63s
+[2026-04-19 11:23:05] START variant=4 mode=no_ls seed=1003 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:23:20] DONE  variant=4 mode=no_ls seed=1003 best=1252.5000 iters=5000 time=14.90s
+[2026-04-19 11:23:20] START variant=4 mode=no_ls seed=1004 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:23:34] DONE  variant=4 mode=no_ls seed=1004 best=1202.5000 iters=5000 time=14.60s
+[2026-04-19 11:23:34] START variant=4 mode=no_ls seed=1005 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:23:49] DONE  variant=4 mode=no_ls seed=1005 best=1087.5000 iters=5000 time=14.69s
+[2026-04-19 11:23:49] START variant=4 mode=no_ls seed=1006 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:24:04] DONE  variant=4 mode=no_ls seed=1006 best=1670.0000 iters=5000 time=14.88s
+[2026-04-19 11:24:04] START variant=4 mode=no_ls seed=1007 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:24:19] DONE  variant=4 mode=no_ls seed=1007 best=1475.0000 iters=5000 time=14.72s
+[2026-04-19 11:24:19] START variant=4 mode=no_ls seed=1008 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:24:34] DONE  variant=4 mode=no_ls seed=1008 best=1870.0000 iters=5000 time=14.91s
+[2026-04-19 11:24:34] START variant=4 mode=no_ls seed=1009 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:24:49] DONE  variant=4 mode=no_ls seed=1009 best=1622.5000 iters=5000 time=14.86s
+[2026-04-19 11:24:49] START variant=4 mode=no_ls seed=1010 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:25:04] DONE  variant=4 mode=no_ls seed=1010 best=960.0000 iters=5000 time=14.97s
+[2026-04-19 11:25:04] START variant=4 mode=no_ls seed=1011 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:25:19] DONE  variant=4 mode=no_ls seed=1011 best=1595.0000 iters=5000 time=14.89s
+[2026-04-19 11:25:19] START variant=4 mode=no_ls seed=1012 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:25:34] DONE  variant=4 mode=no_ls seed=1012 best=1645.0000 iters=5000 time=15.17s
+[2026-04-19 11:25:34] START variant=4 mode=no_ls seed=1013 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:25:49] DONE  variant=4 mode=no_ls seed=1013 best=1005.0000 iters=5000 time=14.83s
+[2026-04-19 11:25:49] START variant=4 mode=no_ls seed=1014 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:26:04] DONE  variant=4 mode=no_ls seed=1014 best=1645.0000 iters=5000 time=14.98s
+[2026-04-19 11:26:04] START variant=4 mode=no_ls seed=1015 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:26:19] DONE  variant=4 mode=no_ls seed=1015 best=1250.0000 iters=5000 time=14.90s
+[2026-04-19 11:26:19] START variant=4 mode=no_ls seed=1016 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:26:34] DONE  variant=4 mode=no_ls seed=1016 best=1480.0000 iters=5000 time=15.15s
+[2026-04-19 11:26:34] START variant=4 mode=no_ls seed=1017 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:26:49] DONE  variant=4 mode=no_ls seed=1017 best=1732.5000 iters=5000 time=14.94s
+[2026-04-19 11:26:49] START variant=4 mode=no_ls seed=1018 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:27:03] DONE  variant=4 mode=no_ls seed=1018 best=1717.5000 iters=5000 time=14.68s
+[2026-04-19 11:27:03] START variant=4 mode=no_ls seed=1019 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:27:18] DONE  variant=4 mode=no_ls seed=1019 best=1197.5000 iters=5000 time=14.77s
+[2026-04-19 11:27:18] START variant=4 mode=no_ls seed=1020 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:27:33] DONE  variant=4 mode=no_ls seed=1020 best=1757.5000 iters=5000 time=14.69s
+[2026-04-19 11:27:33] START variant=4 mode=no_ls seed=1021 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:27:48] DONE  variant=4 mode=no_ls seed=1021 best=1367.5000 iters=5000 time=14.72s
+[2026-04-19 11:27:48] START variant=4 mode=no_ls seed=1022 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:28:02] DONE  variant=4 mode=no_ls seed=1022 best=1547.5000 iters=5000 time=14.71s
+[2026-04-19 11:28:03] START variant=4 mode=no_ls seed=1023 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:28:17] DONE  variant=4 mode=no_ls seed=1023 best=1085.0000 iters=5000 time=14.72s
+[2026-04-19 11:28:17] START variant=4 mode=no_ls seed=1024 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:28:32] DONE  variant=4 mode=no_ls seed=1024 best=1652.5000 iters=5000 time=14.81s
+[2026-04-19 11:28:32] START variant=4 mode=no_ls seed=1025 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:28:47] DONE  variant=4 mode=no_ls seed=1025 best=1510.0000 iters=5000 time=14.75s
+[2026-04-19 11:28:47] START variant=4 mode=no_ls seed=1026 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:29:02] DONE  variant=4 mode=no_ls seed=1026 best=1410.0000 iters=5000 time=14.68s
+[2026-04-19 11:29:02] START variant=4 mode=no_ls seed=1027 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:29:16] DONE  variant=4 mode=no_ls seed=1027 best=1702.5000 iters=5000 time=14.80s
+[2026-04-19 11:29:16] START variant=4 mode=no_ls seed=1028 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:29:31] DONE  variant=4 mode=no_ls seed=1028 best=1592.5000 iters=5000 time=14.96s
+[2026-04-19 11:29:31] START variant=4 mode=no_ls seed=1029 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:29:46] DONE  variant=4 mode=no_ls seed=1029 best=1717.5000 iters=5000 time=14.89s
+[2026-04-19 11:29:46] START variant=4 mode=no_ls seed=1030 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:30:01] DONE  variant=4 mode=no_ls seed=1030 best=1382.5000 iters=5000 time=14.97s
+[2026-04-19 11:30:01] START variant=4 mode=no_ls seed=1031 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:30:16] DONE  variant=4 mode=no_ls seed=1031 best=1567.5000 iters=5000 time=14.72s
+[2026-04-19 11:30:16] START variant=4 mode=no_ls seed=1032 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:30:31] DONE  variant=4 mode=no_ls seed=1032 best=942.5000 iters=5000 time=14.74s
+[2026-04-19 11:30:31] START variant=4 mode=no_ls seed=1033 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:30:46] DONE  variant=4 mode=no_ls seed=1033 best=1457.5000 iters=5000 time=14.74s
+[2026-04-19 11:30:46] START variant=4 mode=no_ls seed=1034 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:31:01] DONE  variant=4 mode=no_ls seed=1034 best=1507.5000 iters=5000 time=15.07s
+[2026-04-19 11:31:01] START variant=4 mode=no_ls seed=1035 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:31:16] DONE  variant=4 mode=no_ls seed=1035 best=1572.5000 iters=5000 time=15.13s
+[2026-04-19 11:31:16] START variant=4 mode=no_ls seed=1036 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:31:31] DONE  variant=4 mode=no_ls seed=1036 best=1520.0000 iters=5000 time=14.69s
+[2026-04-19 11:31:31] START variant=4 mode=no_ls seed=1037 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:31:45] DONE  variant=4 mode=no_ls seed=1037 best=1302.5000 iters=5000 time=14.59s
+[2026-04-19 11:31:45] START variant=4 mode=no_ls seed=1038 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:32:00] DONE  variant=4 mode=no_ls seed=1038 best=1627.5000 iters=5000 time=14.97s
+[2026-04-19 11:32:00] START variant=4 mode=no_ls seed=1039 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:32:16] DONE  variant=4 mode=no_ls seed=1039 best=2675.0000 iters=5000 time=15.16s
+[2026-04-19 11:32:16] START variant=4 mode=no_ls seed=1040 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:32:30] DONE  variant=4 mode=no_ls seed=1040 best=1395.0000 iters=5000 time=14.68s
+[2026-04-19 11:32:30] START variant=4 mode=no_ls seed=1041 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:32:45] DONE  variant=4 mode=no_ls seed=1041 best=1587.5000 iters=5000 time=14.74s
+[2026-04-19 11:32:45] START variant=4 mode=no_ls seed=1042 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:33:00] DONE  variant=4 mode=no_ls seed=1042 best=1800.0000 iters=5000 time=14.74s
+[2026-04-19 11:33:00] START variant=4 mode=no_ls seed=1043 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:33:14] DONE  variant=4 mode=no_ls seed=1043 best=1197.5000 iters=5000 time=14.64s
+[2026-04-19 11:33:14] START variant=4 mode=no_ls seed=1044 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:33:29] DONE  variant=4 mode=no_ls seed=1044 best=1752.5000 iters=5000 time=14.93s
+[2026-04-19 11:33:29] START variant=4 mode=no_ls seed=1045 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:33:44] DONE  variant=4 mode=no_ls seed=1045 best=1442.5000 iters=5000 time=14.74s
+[2026-04-19 11:33:44] START variant=4 mode=no_ls seed=1046 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:33:59] DONE  variant=4 mode=no_ls seed=1046 best=1780.0000 iters=5000 time=14.92s
+[2026-04-19 11:33:59] START variant=4 mode=no_ls seed=1047 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:34:14] DONE  variant=4 mode=no_ls seed=1047 best=1610.0000 iters=5000 time=14.89s
+[2026-04-19 11:34:14] START variant=4 mode=no_ls seed=1048 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:34:29] DONE  variant=4 mode=no_ls seed=1048 best=1390.0000 iters=5000 time=14.88s
+[2026-04-19 11:34:29] START variant=4 mode=no_ls seed=1049 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:34:44] DONE  variant=4 mode=no_ls seed=1049 best=1715.0000 iters=5000 time=14.95s
+[2026-04-19 11:34:44] variant=4 mode=no_ls: 50 seeds done in 0h 12m 24s  [450/500 total, elapsed 0h 32m 21s]
+[2026-04-19 11:34:44] --- variant=4 mode=ls (50 seeds) ---
+[2026-04-19 11:34:44] START variant=4 mode=ls seed=1000 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:35:05] DONE  variant=4 mode=ls seed=1000 best=1772.5000 iters=5000 time=21.12s
+[2026-04-19 11:35:05] START variant=4 mode=ls seed=1001 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:35:26] DONE  variant=4 mode=ls seed=1001 best=1695.0000 iters=5000 time=20.52s
+[2026-04-19 11:35:26] START variant=4 mode=ls seed=1002 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:35:46] DONE  variant=4 mode=ls seed=1002 best=1280.0000 iters=5000 time=20.26s
+[2026-04-19 11:35:46] START variant=4 mode=ls seed=1003 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:36:06] DONE  variant=4 mode=ls seed=1003 best=1595.0000 iters=5000 time=20.23s
+[2026-04-19 11:36:06] START variant=4 mode=ls seed=1004 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:36:26] DONE  variant=4 mode=ls seed=1004 best=1290.0000 iters=5000 time=20.05s
+[2026-04-19 11:36:26] START variant=4 mode=ls seed=1005 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:36:47] DONE  variant=4 mode=ls seed=1005 best=1815.0000 iters=5000 time=20.59s
+[2026-04-19 11:36:47] START variant=4 mode=ls seed=1006 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:37:08] DONE  variant=4 mode=ls seed=1006 best=1500.0000 iters=5000 time=20.62s
+[2026-04-19 11:37:08] START variant=4 mode=ls seed=1007 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:37:28] DONE  variant=4 mode=ls seed=1007 best=1230.0000 iters=5000 time=20.46s
+[2026-04-19 11:37:28] START variant=4 mode=ls seed=1008 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:37:49] DONE  variant=4 mode=ls seed=1008 best=1017.5000 iters=5000 time=20.81s
+[2026-04-19 11:37:49] START variant=4 mode=ls seed=1009 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:38:10] DONE  variant=4 mode=ls seed=1009 best=1257.5000 iters=5000 time=20.84s
+[2026-04-19 11:38:10] START variant=4 mode=ls seed=1010 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:38:31] DONE  variant=4 mode=ls seed=1010 best=1772.5000 iters=5000 time=20.56s
+[2026-04-19 11:38:31] START variant=4 mode=ls seed=1011 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:38:51] DONE  variant=4 mode=ls seed=1011 best=972.5000 iters=5000 time=20.59s
+[2026-04-19 11:38:51] START variant=4 mode=ls seed=1012 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:39:12] DONE  variant=4 mode=ls seed=1012 best=1985.0000 iters=5000 time=20.98s
+[2026-04-19 11:39:12] START variant=4 mode=ls seed=1013 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:39:33] DONE  variant=4 mode=ls seed=1013 best=920.0000 iters=5000 time=20.83s
+[2026-04-19 11:39:33] START variant=4 mode=ls seed=1014 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:39:54] DONE  variant=4 mode=ls seed=1014 best=1310.0000 iters=5000 time=20.48s
+[2026-04-19 11:39:54] START variant=4 mode=ls seed=1015 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:40:14] DONE  variant=4 mode=ls seed=1015 best=1470.0000 iters=5000 time=20.57s
+[2026-04-19 11:40:14] START variant=4 mode=ls seed=1016 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:40:35] DONE  variant=4 mode=ls seed=1016 best=1665.0000 iters=5000 time=20.70s
+[2026-04-19 11:40:35] START variant=4 mode=ls seed=1017 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:40:56] DONE  variant=4 mode=ls seed=1017 best=1587.5000 iters=5000 time=20.65s
+[2026-04-19 11:40:56] START variant=4 mode=ls seed=1018 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:41:16] DONE  variant=4 mode=ls seed=1018 best=1065.0000 iters=5000 time=20.44s
+[2026-04-19 11:41:16] START variant=4 mode=ls seed=1019 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:41:36] DONE  variant=4 mode=ls seed=1019 best=1647.5000 iters=5000 time=19.82s
+[2026-04-19 11:41:36] START variant=4 mode=ls seed=1020 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:41:57] DONE  variant=4 mode=ls seed=1020 best=802.5000 iters=5000 time=20.65s
+[2026-04-19 11:41:57] START variant=4 mode=ls seed=1021 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:42:17] DONE  variant=4 mode=ls seed=1021 best=1495.0000 iters=5000 time=20.02s
+[2026-04-19 11:42:17] START variant=4 mode=ls seed=1022 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:42:37] DONE  variant=4 mode=ls seed=1022 best=1132.5000 iters=5000 time=20.52s
+[2026-04-19 11:42:37] START variant=4 mode=ls seed=1023 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:42:58] DONE  variant=4 mode=ls seed=1023 best=1237.5000 iters=5000 time=20.38s
+[2026-04-19 11:42:58] START variant=4 mode=ls seed=1024 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:43:19] DONE  variant=4 mode=ls seed=1024 best=1410.0000 iters=5000 time=20.95s
+[2026-04-19 11:43:19] START variant=4 mode=ls seed=1025 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:43:39] DONE  variant=4 mode=ls seed=1025 best=997.5000 iters=5000 time=20.53s
+[2026-04-19 11:43:39] START variant=4 mode=ls seed=1026 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:43:59] DONE  variant=4 mode=ls seed=1026 best=965.0000 iters=5000 time=20.25s
+[2026-04-19 11:44:00] START variant=4 mode=ls seed=1027 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:44:20] DONE  variant=4 mode=ls seed=1027 best=1837.5000 iters=5000 time=20.19s
+[2026-04-19 11:44:20] START variant=4 mode=ls seed=1028 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:44:40] DONE  variant=4 mode=ls seed=1028 best=1390.0000 iters=5000 time=20.42s
+[2026-04-19 11:44:40] START variant=4 mode=ls seed=1029 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:45:02] DONE  variant=4 mode=ls seed=1029 best=995.0000 iters=5000 time=21.36s
+[2026-04-19 11:45:02] START variant=4 mode=ls seed=1030 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:45:22] DONE  variant=4 mode=ls seed=1030 best=980.0000 iters=5000 time=20.45s
+[2026-04-19 11:45:22] START variant=4 mode=ls seed=1031 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:45:43] DONE  variant=4 mode=ls seed=1031 best=1245.0000 iters=5000 time=20.43s
+[2026-04-19 11:45:43] START variant=4 mode=ls seed=1032 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:46:04] DONE  variant=4 mode=ls seed=1032 best=1495.0000 iters=5000 time=21.06s
+[2026-04-19 11:46:04] START variant=4 mode=ls seed=1033 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:46:24] DONE  variant=4 mode=ls seed=1033 best=1497.5000 iters=5000 time=20.66s
+[2026-04-19 11:46:24] START variant=4 mode=ls seed=1034 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:46:45] DONE  variant=4 mode=ls seed=1034 best=1540.0000 iters=5000 time=20.54s
+[2026-04-19 11:46:45] START variant=4 mode=ls seed=1035 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:47:05] DONE  variant=4 mode=ls seed=1035 best=1570.0000 iters=5000 time=20.50s
+[2026-04-19 11:47:05] START variant=4 mode=ls seed=1036 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:47:26] DONE  variant=4 mode=ls seed=1036 best=1305.0000 iters=5000 time=20.72s
+[2026-04-19 11:47:26] START variant=4 mode=ls seed=1037 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:47:46] DONE  variant=4 mode=ls seed=1037 best=890.0000 iters=5000 time=20.17s
+[2026-04-19 11:47:46] START variant=4 mode=ls seed=1038 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:48:07] DONE  variant=4 mode=ls seed=1038 best=712.5000 iters=5000 time=20.51s
+[2026-04-19 11:48:07] START variant=4 mode=ls seed=1039 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:48:27] DONE  variant=4 mode=ls seed=1039 best=1115.0000 iters=5000 time=20.20s
+[2026-04-19 11:48:27] START variant=4 mode=ls seed=1040 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:48:48] DONE  variant=4 mode=ls seed=1040 best=1322.5000 iters=5000 time=20.55s
+[2026-04-19 11:48:48] START variant=4 mode=ls seed=1041 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:49:09] DONE  variant=4 mode=ls seed=1041 best=1595.0000 iters=5000 time=20.71s
+[2026-04-19 11:49:09] START variant=4 mode=ls seed=1042 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:49:29] DONE  variant=4 mode=ls seed=1042 best=1817.5000 iters=5000 time=20.75s
+[2026-04-19 11:49:29] START variant=4 mode=ls seed=1043 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:49:50] DONE  variant=4 mode=ls seed=1043 best=1152.5000 iters=5000 time=20.49s
+[2026-04-19 11:49:50] START variant=4 mode=ls seed=1044 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:50:10] DONE  variant=4 mode=ls seed=1044 best=1077.5000 iters=5000 time=20.27s
+[2026-04-19 11:50:10] START variant=4 mode=ls seed=1045 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:50:31] DONE  variant=4 mode=ls seed=1045 best=1167.5000 iters=5000 time=20.80s
+[2026-04-19 11:50:31] START variant=4 mode=ls seed=1046 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:50:52] DONE  variant=4 mode=ls seed=1046 best=1985.0000 iters=5000 time=21.02s
+[2026-04-19 11:50:52] START variant=4 mode=ls seed=1047 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:51:12] DONE  variant=4 mode=ls seed=1047 best=1402.5000 iters=5000 time=20.34s
+[2026-04-19 11:51:12] START variant=4 mode=ls seed=1048 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:51:33] DONE  variant=4 mode=ls seed=1048 best=1197.5000 iters=5000 time=20.42s
+[2026-04-19 11:51:33] START variant=4 mode=ls seed=1049 V=500 L=60 G=40 A=20 max_iter=5000
+[2026-04-19 11:51:53] DONE  variant=4 mode=ls seed=1049 best=1575.0000 iters=5000 time=20.56s
+[2026-04-19 11:51:54] variant=4 mode=ls: 50 seeds done in 0h 17m 10s  [500/500 total, elapsed 0h 49m 31s]
+[2026-04-19 11:51:54] ==========================================
+[2026-04-19 11:51:54] All experiments finished: 500 succeeded, 0 failed out of 500
+[2026-04-19 11:51:54] Total wall time: 0h 49m 31s
+[2026-04-19 11:51:54] ==========================================
+[2026-04-19 11:51:54] SUCCESS — see results/DONE.log
