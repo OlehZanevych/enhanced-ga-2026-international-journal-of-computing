@@ -2,7 +2,7 @@
 
 This application implements an enhanced genetic algorithm (GA) with an optional conflict-driven local search (LS) procedure for the University Course Timetabling Problem (UCTP). It is developed for the purpose of conducting experiments for the article:
 
-> **"Enhanced Genetic Algorithm with Local Search for University Course Timetabling: A Conflict-Driven Repair Approach"**
+> **"Enhanced Genetic Algorithm for University Course Timetabling with Conflict-Driven Local Search"**
 > by Oleh Zanevych and Vitaliy Kukharskyy
 >
 > Planned for publication in [*International Journal of Computing*](https://www.computingonline.net/computing)
