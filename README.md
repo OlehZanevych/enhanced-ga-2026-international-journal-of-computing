@@ -85,3 +85,7 @@ Requires `numpy` and `scipy`. Writes the pgfplots figures and the LaTeX table bo
 ## Requirements
 
 C++17 compiler (tested with Apple Clang, Clang 18 and GCC 11/13), bash, no external libraries.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
