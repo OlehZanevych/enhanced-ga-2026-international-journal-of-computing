@@ -1,0 +1,4 @@
+iteration,best_score,best_hard,best_soft,iter_best_score,cumul_time_sec,restart
+1,255,100,155,255,0.00030,0
+2,40,0,40,40,0.00054,0
+3,0,0,0,0,0.00077,0

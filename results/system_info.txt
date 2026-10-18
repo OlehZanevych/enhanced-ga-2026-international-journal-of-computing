@@ -1,0 +1,14 @@
+Date:            2026-10-18 22:04:34 EEST
+OS kernel:       Darwin 24.1.0 arm64
+macOS:           15.1 (build 24B2082)
+Model:           Mac16,5
+CPU:             Apple M4 Max
+CPU cores:       14 logical; performance: 10, efficiency: 4
+P-core L2 cache: 16 MB
+Memory:          36 GB
+Power source:    AC Power
+Low power mode:  
+Compiler:        Apple clang version 16.0.0 (clang-1600.0.26.6)
+Compiler flags:  -std=c++17 -O3 -Wall
+Git commit:      1a58398 (with uncommitted changes)
+Seeds:           1000..1049

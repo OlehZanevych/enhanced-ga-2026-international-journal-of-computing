@@ -15,3 +15,6 @@ schedule
 
 # macOS
 .DS_Store
+
+# Analysis output
+analysis_out/

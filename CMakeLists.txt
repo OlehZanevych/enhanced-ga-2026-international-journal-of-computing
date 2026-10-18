@@ -8,8 +8,9 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 
+# Same flags as run_experiments.sh (-O3 -Wall) for both executables.
 add_executable(generate generate.cpp)
-target_compile_options(generate PRIVATE -O2 -Wall)
+target_compile_options(generate PRIVATE -O3 -Wall)
 
 add_executable(schedule schedule.cpp)
 target_compile_options(schedule PRIVATE -O3 -Wall)

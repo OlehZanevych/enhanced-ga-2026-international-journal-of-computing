@@ -1,141 +1,87 @@
 # Enhanced GA for University Course Timetabling
 
-This application implements an enhanced genetic algorithm (GA) with an optional conflict-driven local search (LS) procedure for the University Course Timetabling Problem (UCTP). It is developed for the purpose of conducting experiments for the article:
+This application implements an enhanced genetic algorithm (GA) with optional conflict-driven local search (LS) for the University Course Timetabling Problem (UCTP). It was developed to run the experiments for the article:
 
 > **"Enhanced Genetic Algorithm for University Course Timetabling with Conflict-Driven Local Search"**
 > by Oleh Zanevych and Vitaliy Kukharskyy
 >
 > Planned for publication in [*International Journal of Computing*](https://www.computingonline.net/computing)
 
+## Algorithms
+
+| Mode | Name in the article | Description |
+|------|--------------------|-------------|
+| `0` (`no_ls`) | GA | Enhanced GA: three-parent conflict-aware crossover, adaptive mutation of the worst genes, (μ+λ) survivor selection with elitism and tournament, stagnation-triggered partial restart. |
+| `1` (`ls`) | GA+LS | Basic variant: GA + overlap-only conflict-driven repair of every mutant. |
+| `2` (`ls_w`) | GA+LS-W | Ablation: the same repair, with window count used as a tiebreaker among conflict-free placements. |
+| `3` (`amls`) | GA+AMLS | Proposed: adaptive multi-neighbourhood LS — relocation + ejection swaps for hard constraints, then a separate feasibility-preserving window-compaction move with exact delta evaluation; intensity grows with stagnation. |
+
 ## Project Structure
 
 ```
-enhanced-ga/
-├── types.h              # Core data types: Gene, Schedule, Problem, Freq enum
-├── fitness.h            # Objective function, local objective, ScheduleIndex (O(1) bucket-index)
-├── ga.h                 # GA engine: crossover, mutation, selection, local search, main loop
-├── generate.cpp         # Test instance generator (5 realistic variants)
-├── schedule.cpp         # Main experiment runner (reads data, runs GA, writes results)
-├── CMakeLists.txt       # CMake build configuration
-├── run_experiments.sh   # Automated experiment script (build + generate + run all)
-├── data/                # Generated input data (5 variants)
-│   ├── variant0/        # V=30,  L=8,  G=6,  A=5  (20% room utilisation)
-│   ├── variant1/        # V=60,  L=12, G=10, A=8  (25% room utilisation)
-│   ├── variant2/        # V=120, L=20, G=15, A=10 (40% room utilisation)
-│   ├── variant3/        # V=250, L=35, G=25, A=15 (56% room utilisation)
-│   └── variant4/        # V=500, L=60, G=40, A=20 (83% room utilisation)
-│       ├── meta.csv           # Problem dimensions (V, L, G, A, days, slots)
-│       └── requirements.csv   # Class requirements (lecturer, frequency, groups)
-└── results/             # Experiment output (created by run_experiments.sh)
-    ├── run.log          # Full execution log with system info and timing
-    ├── DONE.log         # Completion report (written only on success)
-    └── v<k>_<mode>/seed<N>/   # Per-run output
-        ├── iterations.csv     # Per-iteration convergence trace
-        ├── summary.csv        # Single-row summary with all parameters and metrics
-        └── schedule.csv       # Best timetable found
+├── types.h              # Gene, Schedule, Problem, Freq
+├── rng.h                # Portable RNG (libc++-compatible distributions, identical on every platform)
+├── fitness.h            # Objective with hard/soft decomposition, local objective, ScheduleIndex
+├── ga.h                 # GA engine and the three local-search variants
+├── generate.cpp         # Instance generator (5 synthetic instances)
+├── schedule.cpp         # Runs one experiment (instance, algorithm, seed)
+├── run_experiments.sh   # Complete experimental protocol (build + generate + all runs)
+├── CMakeLists.txt
+├── analyze.py           # Statistics, LaTeX tables and pgfplots figures of the article
+├── data/variant{0..4}/  # meta.csv, requirements.csv
+└── results/
+    ├── system_info.txt, run.log, DONE.log, equal_time_budgets.txt
+    ├── main/        v<k>_<mode>/seed<N>/{iterations,summary,schedule}.csv + all_summaries.csv
+    └── equal_time/  (same layout)
 ```
 
-## Source Files
-
-| File | Description |
-|------|-------------|
-| `types.h` | Defines `Gene` (day, slot, room, frequency), `Schedule` (vector of genes), `Problem` (dimensions, lecturer/group assignments), and `Freq` enum (Weekly, Numerator, Denominator). |
-| `fitness.h` | Implements the weighted penalty objective function (Eq. 1 in the article). Contains `ScheduleIndex` — a bucket-index structure providing O(1) conflict lookups for lecturers, groups, and rooms. Also provides `local_objective` for per-gene conflict evaluation used by crossover and mutation. |
-| `ga.h` | The complete GA engine: random schedule initialisation, three-parent conflict-aware crossover, adaptive mutation with stagnation scaling, tournament selection with elite preservation, stagnation-triggered restart, and the conflict-driven local search procedure (overlap-only repair). The `run_ga()` function executes the main evolutionary loop and returns per-iteration records. |
-| `generate.cpp` | Generates 5 test instances with load-balanced lecturer and group assignments. Lecturers are assigned using a min-load heuristic (70% max utilisation cap). Groups follow a weighted distribution (55% single, 30% double, 15% triple). Frequencies: 65% weekly, 20% numerator, 15% denominator. |
-| `schedule.cpp` | Entry point for a single experiment run. Reads problem data from CSV, configures GA parameters, runs the algorithm with a given seed, and writes `iterations.csv`, `summary.csv`, and `schedule.csv` to the output directory. |
-| `run_experiments.sh` | Orchestrates the full experiment pipeline: compiles both executables, generates input data, and runs all 500 experiments (5 variants × 2 modes × 50 seeds). Logs system info, per-configuration timing, and total wall time. |
-
-## Algorithm Configurations
-
-Two configurations are compared, differing only in the local search toggle:
-
-- **GA** (`mode=0`): Enhanced GA without local search.
-- **GA+LS** (`mode=1`): Enhanced GA with conflict-driven local search applied to every mutant offspring.
-
-Both share identical GA parameters: population size 20, three-parent crossover (C=0.5), adaptive mutation (M=0.10), tournament selection (k=3), elite preservation (2), stagnation restart after 30 iterations, and a maximum of 5000 iterations.
-
-## Requirements
-
-- C++17 compiler (tested with Apple Clang 15.0)
-- Bash shell
-- No external libraries required
-
-## Quick Start
-
-### Run all experiments (recommended)
+## Running the experiments
 
 ```bash
-cd enhanced-ga
 ./run_experiments.sh
 ```
 
-This will:
-1. Build `generate` and `schedule` executables
-2. Generate 5 test instances in `data/`
-3. Run 500 experiments (5 variants × 2 modes × 50 seeds 1000–1049)
-4. Write results to `results/`
-5. Log everything to `results/run.log`
+The script deletes `results/`, builds both executables (`clang++` if available, otherwise `g++`; override with `CXX=...`), regenerates the instances (and checks that they are identical to the reference instances), and runs, sequentially:
 
-Total runtime: ~50 minutes on Apple M1 Pro.
+| Experiment | Runs | Description |
+|-----------|------|-------------|
+| E1 `main` | 5 instances × 4 algorithms × 50 seeds = 1000 | Iteration budget T_max = 5000 |
+| E2 `equal_time` | V ∈ {250, 500} × 4 algorithms × 50 seeds = 400 | Equal wall-clock budget = mean GA time of E1 for that instance |
 
-### Manual execution
+Total runtime on an Apple M4 Max (MacBook Pro, macOS 15.1, Apple clang 16): about 70 minutes. On macOS the script keeps the computer awake with `caffeinate`. An interrupted run can be continued with `RESUME=1 ./run_experiments.sh`; `NUM_SEEDS=2 ./run_experiments.sh` performs a quick smoke test.
+
+### Single runs
 
 ```bash
-# Build
 clang++ -std=c++17 -O3 -Wall -o generate generate.cpp
 clang++ -std=c++17 -O3 -Wall -o schedule schedule.cpp
-
-# Generate input data
 ./generate
+./schedule <variant 0-4> <mode 0-3> <seed> [--max-iter N] [--time-limit S] [--ls-frac F] [--out DIR] [--verbose]
 
-# Run a single experiment
-./schedule <variant 0-4> <mode 0=GA 1=GA+LS> <seed>
-
-# Examples
-./schedule 0 0 1000   # Variant 0 (V=30), GA only, seed 1000
-./schedule 4 1 1042   # Variant 4 (V=500), GA+LS, seed 1042
+./schedule 4 1 1042            # V=500, GA+LS, seed 1042 -> results/main/v4_ls/seed1042/
+./schedule 3 3 1000 --verbose  # V=250, GA+AMLS, print every iteration
 ```
 
-### Build with CMake
+## Reproducibility
+
+* `std::mt19937` is fully specified by the C++ standard, but the standard distributions are not. `rng.h` re-implements them with the arithmetic used by libc++, so a given seed produces bit-identical runs with GCC/libstdc++, Clang/libc++ and on x86-64 or ARM64. Ties in all sorting steps are broken by index. Only the wall-clock times are machine-dependent.
+
+### Analysis
 
 ```bash
-mkdir -p build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-make
+python3 analyze.py --results results --figures ../figures --tables analysis_out
 ```
 
-## Output Format
+Requires `numpy` and `scipy`. Writes the pgfplots figures and the LaTeX table bodies used in the article, `numbers.json` with every value quoted in the text, and a short `report.md`.
 
-### `summary.csv`
+## Output format
 
-Contains one row per run with all experiment metadata and results:
+`summary.csv` contains one row per run with all parameters plus: `iterations_run`, `converged` (f = 0), `feasible` (all hard constraints satisfied), `final_best_score`, `hard_penalty`, `soft_penalty`, `pi1`–`pi5`, `first_feasible_iter`, `first_feasible_sec`, `total_time_sec`, `avg_iter_time_sec`, `restarts_count`, and LS statistics: `ls_calls`, `ls_relocations`, `ls_swaps`, `ls_soft_moves`, `ls_time_sec`, and the number of conflicted genes in sampled mutants before and after LS (`ls_sampled`, `ls_conflicted_before`, `ls_conflicted_after`).
 
-```
-variant, mode, seed, V, L, G, A, days, slots,
-pop_size, crossover_frac, CR_min, CR_max,
-mutation_frac, MR_day, MR_slot, MR_room, MR_freq,
-elites, tournament, stagnation_limit, restart_frac,
-use_local_search, max_iter,
-iterations_run, converged,
-final_best_score, total_time_sec,
-avg_iter_time_sec, restarts_count
-```
+`iterations.csv`: `iteration, best_score, best_hard, best_soft, iter_best_score, cumul_time_sec, restart`.
 
-### `iterations.csv`
+`schedule.csv`: `req_id, day, slot, room, freq`.
 
-Per-iteration convergence trace:
+## Requirements
 
-```
-variant, mode, seed, V, L, G, A, days, slots, max_iter,
-iteration, best_score, iter_best_score,
-iter_time_sec, cumul_time_sec, restart
-```
-
-### `schedule.csv`
-
-The best timetable found:
-
-```
-req_id, day, slot, room, freq
-```
+C++17 compiler (tested with Apple Clang, Clang 18 and GCC 11/13), bash, no external libraries.
